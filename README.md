@@ -122,6 +122,7 @@ Google Drive
 
 Durante a execução dos testes foram encontrados os seguintes problemas.
 
+---
 Bug 1
 Título: Sistema permite cadastrar curso com campo nome vazio
 
@@ -133,7 +134,8 @@ Passos
 Resultado atual:Curso é cadastrado
 Resultado esperado:Sistema deve impedir cadastro
 Severidade:Alta
-
+---
+---
 Bug 2
 Título: Sistema aceita número negativo de vagas
 
@@ -145,7 +147,8 @@ Passos
 Resultado atual:Curso é salvo
 Resultado esperado:Sistema deve bloquear valores negativos
 Severidade:Alta
-
+---
+---
 Bug 3
 Título: Campo URL aceita texto inválido
 
@@ -156,7 +159,8 @@ Passos
 Resultado atual:Curso cadastrado
 Resultado esperado: Sistema deve validar URL
 Severidade:Média
-
+---
+---
 Bug 4
 Nao podera apagar nenhum curso todos eles continuam mesmo fazendo refresh na pag (F5)
 
@@ -164,11 +168,13 @@ Passos
 1 cadastrar curso
 2 aperte F5
 3 continuam os curso que eram pra ser excluidos
-
+---
+---
 Resultado atual:Curso cadastrado
 Resultado esperado: Sistema deve apagar o curso
 Severidade:Alta
-
+---
+---
 Bug 5
 Nao esta responsivo para celulares
 
@@ -181,7 +187,8 @@ Passos
 Resultado atual:Alguem com celular nao consegue usar
 Resultado esperado: Seja responsivo para todas as plataformas
 Severidade:Alta
-
+---
+---
 Bug 6
 Ao clicar no texto-home da pagina (Beedoo QA Chalenge) nao leva ao inicio da pagina
 
@@ -191,3 +198,4 @@ Passos
 Resultado atual:Nada ocorre
 Resultado esperado:Voltaria para o inicio da pagina
 Severidade:Media
+---
